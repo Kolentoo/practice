@@ -1,0 +1,245 @@
+.yahei {font-family:Microsoft YaHei;}
+.bj {background: url('../images/bj.jpg') no-repeat;background-size: 100% 100%;}
+.box {width: 1050px;margin:0 auto;}
+.wrap {width: 100%;overflow-y: scroll;  -ms-overflow-style: none; }
+.wrap::-webkit-scrollbar {display: none;}
+.wrap::-moz-scrollbar {display: none;}
+.wrap::-ms-scrollbar {display: none;}
+.swiper-container {width: 100%;}
+.swiper-slide {width: 100%;}
+.pcfl {float: left;}
+.pcfr {float: right;}
+
+.content {background: rgba(255,255,255,0.9);padding: 40px 0 0 0;background: #fff\0;}
+.content .titlepic {width: 448px;margin:0 auto;margin-bottom: 50px;}
+.bottombj {background: url('../images/decorate.png') no-repeat center bottom;min-height: 352px;background-size: 100%;padding-bottom: 40px;}
+
+.form {padding:0 80px;}
+.inputbox .p1 {font-size: 28px;color:#0d0d0d;margin-bottom: 5px;}
+.inputbox .p1 i{color:#c7444f;}
+.inputbox .inputcon {position: relative;}
+.inputbox .something {height: 40px;border:1px solid #010017;text-indent:48px;font-size: 20px;}
+.inputbox .input1 {width: 380px;}
+.inputbox .icon {position: absolute;left: 10px;}
+.inputbox .icon1 {width: 20px;height: 24px;top: 10px;}
+.inputbox .icon2 {width: 26px;height: 26px;top: 9px;}
+.inputbox .icon3 {width: 22px;height: 28px;top: 7px;}
+.inputbox .icon4 {width: 26px;height: 26px;top: 7px;}
+.inputbox .tips {font-size: 16px;color:#da2824;margin-top: 2px;opacity: 0;}
+.wrong .tips {opacity: 1;}
+
+.distance {margin-bottom: 25px;}
+.inputbox .inputcon select {height: 40px;border:1px solid #010017;font-size: 20px;width: 100%;padding-left: 48px;}
+.inputbox .inputcon .mac {text-indent: 48px;}
+.inputcon2 {width: 100%;}
+.address .p2 {font-size: 20px;color:#747474;margin-top: -10px;}
+.address .area {height: 40px;border:1px solid #010017;width: 160px;background: #fff;}
+.address .area img{margin-left: 10px;vertical-align: top;margin-top: 7px;}
+.address .area .s1 {line-height: 40px;font-size: 20px;color:#6b6b6b;margin-left: 25px;}
+.address .inputcon .detailaddress {margin-left: 15px;width: 711px;text-indent: 20px;}
+.tips {margin-bottom: 5px;}
+.tips .inputcon textarea {width: 96%;height: 180px;padding:2%;text-indent: 0;}
+.notice {font-size: 16px;color:#787878;}
+.btn {width: 180px;height: 46px;line-height: 46px;font-size: 24px;color:#fff;background: #3a85c0;transition:all ease 0.3s;cursor: pointer;
+margin:15px auto 0;text-align: center;border-radius:7px;}
+.btn:hover {background: #539cd6;}
+.btn img{width: 11px;height: 17px;margin-left: 10px;}
+
+.contact {margin-top: 40px;}
+.contact .code {width: 150px;margin:0 75px;}
+.contact .code .chart {width: 100%;}
+.contact .p1 {font-size: 16px;color:#0087c5;margin-top: 3px;}
+.contact .phonenum {font-size: 32px;color:#0087c5;margin-top: 50px;}
+
+.banner {margin:0 auto 0;width: 72%;}
+@-moz-document url-prefix() { .address .inputcon .detailaddress{width: 694px;}} 
+.address .inputcon .detailaddress{width: 694px\9\0;}
+
+
+.popbox {position: fixed;z-index:-1;width: 100%;height: 100%;left: 0;top: 0;opacity: 0;transition:all ease 0.3s;}
+.popboxon {opacity: 1;z-index:1000;}
+.pop {display: flex;justify-content: center;align-items: center;color:#fff;width: 100%;height: 100%;text-align: center;}
+.pop .p1 {background: rgba(0,0,0,0.5);transition:all ease 0.5s;padding:1rem 2rem;border-radius:0.5rem;font-size: 2.2rem;}
+
+.pop2 {width: 420px;height: 340px;position: fixed;background: #fafafa;border-radius: 5px;box-shadow: #ccc 0px 0px 28px 4px;z-index: 500;
+    padding: 37px 37px 0 37px;top: 50%;left: 50%;margin:-207px 0 0 -247px;}
+.pop2 .popcon {position: relative;}
+.pop2 .popcon .decorate2 {position: absolute;width: 40px;height: 249px;right: 20px;top: 30px;}
+.pop2 .chart {width: 200px;}
+.pop2 .codepic {width: 200px;height: 200px;}
+.pop2 .p1 {margin-bottom: 35px;}
+.pop2 .s1 {color: #2ea9e9;font-size: 16px;margin-right: 20px;}
+.pop2 .s2 {line-height: 200px;}
+.pop2 em{font-size: 30px;color: #5d5655;}
+.pop2 .p2 {color:#cccaca;font-size: 14px;}
+.pop2 .close {width: 25px;height: 24px;position: absolute;top: -20px;right: -20px;cursor: pointer;}
+
+
+/* swiper css */
+.swiper1 {position: relative;}
+.swiper1 .logo-group {position: absolute;right: 15px;top: 7px;width: 225px;z-index:400;}
+.swiper1 .logo-group .logo1 {width: 100px;display: inline-block;}
+.swiper1 .logo-group .logo2 {width: 110px;margin-left: 8px;display: inline-block;}
+.swiper1 .swiper-container {height: 336px;color: #fff;text-align: center;}
+.swiper1 .pagination {position: absolute;z-index: 20;bottom: 10px;left: 0;width: 100%;text-align: center;}
+.swiper1 .swiper-pagination-switch {display: inline-block;width: 10px;height: 10px;border-radius: 50%;background: #a2a2a2;cursor: pointer;margin:0 5px;}
+.swiper1 .swiper-active-switch {background: #e89557;}
+
+.other {padding:30px 40px 50px;background: rgba(255,255,255,0.9);background: #fff\0;}
+.swiper2 {width: 100%;position: relative;margin: 0 auto;height: 329px;}
+.swiper2 .swiper-container {width: 100%;height: 329px;}
+.swiper2 .swiper-slide {height: 100%;opacity: 0.4;
+    /* -webkit-transition: 300ms;-moz-transition: 300ms;-ms-transition: 300ms;-o-transition: 300ms;transition: 300ms;-webkit-transform: scale(0.6); */
+    /* -moz-transform: scale(0.6);-ms-transform: scale(0.6);-o-transform: scale(0.6);transform: scale(0.6); */
+}
+.swiper2 .swiper-slide img{box-shadow:0 0 10px rgba(0,0,0,0.28);}
+.swiper2 .swiper-slide-visible {opacity: 0.5;-webkit-transform: scale(0.8);-moz-transform: scale(0.8);-ms-transform: scale(0.8);-o-transform: scale(0.8);transform: scale(0.8);}
+.swiper2 .swiper-slide-active {top: 0;opacity: 1;
+    -webkit-transform: scale(1);-moz-transform: scale(1);-ms-transform: scale(1);-o-transform: scale(1);transform: scale(1);
+}
+.swiper2 .pagination {position: absolute;z-index: 20;left: 0px;width: 100%;text-align: center;bottom: -20px;}
+.swiper2 .swiper-pagination-switch {display: inline-block;width: 10px;height: 10px;border-radius: 8px;background: #a6a6a6;margin-right: 8px;cursor: pointer;
+    -webkit-transition: 300ms;-moz-transition: 300ms;-ms-transition: 300ms;-o-transition: 300ms;transition: 300ms;position: relative;top: -50px;}
+.swiper2 .swiper-active-switch {background: #ed995a;}
+
+
+
+@media screen and (max-width: 750px){
+    .box {width: 100%;}
+    .bj {background: none;}
+    .wrap {width: 100%;overflow-y: visible;}
+    .swiper1 .swiper-container {height: 25.2rem;}
+    .swiper1 .pagination {bottom: 1rem;}
+
+    .form {padding:0 4rem;}
+    .content .titlepic {width: 44.8rem;}
+    .inputbox .p1 {font-size: 2.8rem;}
+    .address .area {height: 5rem;width: 20%;border: 0.1rem solid #010017;}
+    .address .area .s1 {line-height: 5rem;font-size: 2rem;margin-left: 1rem;}
+    .address .p2 {font-size: 2rem;margin-top: -0.5rem;margin-bottom: 0.5rem;}
+    .address .area img{margin-left: 1rem;margin-top: 1.4rem;}
+    .address .inputcon .detailaddress {margin-left: 3%;width: 76.1%;text-indent: 2rem;}
+    .inputbox .input1 {width: 100%;}
+    .inputbox .something {height: 5rem;border: 0.1rem solid #010017;text-indent: 4.8rem;font-size: 2rem;}
+    .inputbox .tips {font-size: 1.6rem;}
+    .inputbox .inputcon select {height: 5rem;border: 0.1rem solid #010017;font-size: 2rem;width: 100%;text-indent: 4.8rem;display: inline-block;padding-left: 0;}
+
+    .inputbox .icon {left: 1rem;}
+    .inputbox .icon1 {width: 2rem;height: 2.4rem;top: 1.5rem;}
+    .inputbox .icon2 {width: 2.6rem;height: 2.6rem;top: 1.4rem;}
+    .inputbox .icon3 {width: 2.2rem;height: 2.8rem;top: 1.2rem;}
+    .inputbox .icon4 {width: 2.6rem;height: 2.6rem;top: 1.2rem;}
+
+    .notice .p1 {font-size: 2rem;}
+    .btn {width: 18rem;height: 4.6rem;line-height: 4.6rem;font-size: 2.4rem;margin: 1.5rem auto 0;border-radius: 0.7rem;}
+    .btn img {width: 1.1rem;height: 1.7rem;margin-left: 1rem;}
+
+    .tips .inputcon textarea {height: 18rem;}
+
+    .contact {display: flex;justify-content: center;align-items: center;}
+    .contact .code {margin:0 3rem;width: 15rem;}
+    .contact .p1 {font-size: 1.8rem;margin-top: 0.5rem;}
+    .contact .phonenum {font-size: 3rem;margin-top: 0;}
+    .swiper2 {height: 22.9rem;}
+    .swiper2 .swiper-container {height: 22.9rem;}
+    .swiper2 .swiper-slide {height: 22.9rem;}
+
+    .pcfl {float: none;}
+    .pcfr {float: none;}
+}
+
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .box {width: 100%;}
+        .bj {background: none;}
+        .wrap {width: 100%;overflow-y: visible;}
+        .swiper1 .swiper-container {height: 25.2rem;}
+        .swiper1 .pagination {bottom: 1rem;}
+    
+        .form {padding:0 4rem;}
+        .content .titlepic {width: 44.8rem;}
+        .inputbox .p1 {font-size: 2.8rem;}
+        .address .area {height: 5rem;width: 20%;border: 0.1rem solid #010017;}
+        .address .area .s1 {line-height: 5rem;font-size: 2rem;margin-left: 1rem;}
+        .address .p2 {font-size: 2rem;margin-top: -0.5rem;margin-bottom: 0.5rem;}
+        .address .area img{margin-left: 1rem;margin-top: 1.4rem;}
+        .address .inputcon .detailaddress {margin-left: 3%;width: 76.1%;text-indent: 2rem;}
+        .inputbox .input1 {width: 100%;}
+        .inputbox .something {height: 5rem;border: 0.1rem solid #010017;text-indent: 4.8rem;font-size: 2rem;}
+        .inputbox .tips {font-size: 1.6rem;}
+        .inputbox .inputcon select {height: 5rem;border: 0.1rem solid #010017;font-size: 2rem;width: 100%;text-indent: 4.8rem;display: inline-block;padding-left: 0;}
+    
+        .inputbox .icon {left: 1rem;}
+        .inputbox .icon1 {width: 2rem;height: 2.4rem;top: 1.5rem;}
+        .inputbox .icon2 {width: 2.6rem;height: 2.6rem;top: 1.4rem;}
+        .inputbox .icon3 {width: 2.2rem;height: 2.8rem;top: 1.2rem;}
+        .inputbox .icon4 {width: 2.6rem;height: 2.6rem;top: 1.2rem;}
+    
+        .notice .p1 {font-size: 2rem;}
+        .btn {width: 18rem;height: 4.6rem;line-height: 4.6rem;font-size: 2.4rem;margin: 1.5rem auto 0;border-radius: 0.7rem;}
+        .btn img {width: 1.1rem;height: 1.7rem;margin-left: 1rem;}
+    
+        .tips .inputcon textarea {height: 18rem;}
+    
+        .contact {display: flex;justify-content: center;align-items: center;}
+        .contact .code {margin:0 3rem;width: 15rem;}
+        .contact .p1 {font-size: 1.8rem;margin-top: 0.5rem;}
+        .contact .phonenum {font-size: 3rem;margin-top: 0;}
+        .swiper2 {height: 22.9rem;}
+        .swiper2 .swiper-container {height: 22.9rem;}
+        .swiper2 .swiper-slide {height: 22.9rem;}
+    
+        .pcfl {float: none;}
+        .pcfr {float: none;}
+    }
+
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) { 
+    .bj {background: none;}
+    .box {width: 100%;}
+    .wrap {width: 100%;overflow-y: visible;}
+    .swiper1 .swiper-container {height: 25.2rem;}
+    .swiper1 .pagination {bottom: 1rem;}
+
+    .form {padding:0 4rem;}
+    .content .titlepic {width: 44.8rem;}
+    .inputbox .p1 {font-size: 2.8rem;}
+    .address .area {height: 5rem;width: 20%;border: 0.1rem solid #010017;}
+    .address .area .s1 {line-height: 5rem;font-size: 2rem;margin-left: 1rem;}
+    .address .p2 {font-size: 2rem;margin-top: -0.5rem;margin-bottom: 0.5rem;}
+    .address .area img{margin-left: 1rem;margin-top: 1.4rem;}
+    .address .inputcon .detailaddress {margin-left: 3%;width: 76.1%;text-indent: 2rem;}
+    .inputbox .input1 {width: 100%;}
+    .inputbox .something {height: 5rem;border: 0.1rem solid #010017;text-indent: 4.8rem;font-size: 2rem;}
+    .inputbox .tips {font-size: 1.6rem;}
+    .inputbox .inputcon select {height: 5rem;border: 0.1rem solid #010017;font-size: 2rem;width: 100%;text-indent: 4.8rem;display: inline-block;padding-left: 0;}
+
+    .inputbox .icon {left: 1rem;}
+    .inputbox .icon1 {width: 2rem;height: 2.4rem;top: 1.5rem;}
+    .inputbox .icon2 {width: 2.6rem;height: 2.6rem;top: 1.4rem;}
+    .inputbox .icon3 {width: 2.2rem;height: 2.8rem;top: 1.2rem;}
+    .inputbox .icon4 {width: 2.6rem;height: 2.6rem;top: 1.2rem;}
+
+    .notice .p1 {font-size: 2rem;}
+    .btn {width: 18rem;height: 4.6rem;line-height: 4.6rem;font-size: 2.4rem;margin: 1.5rem auto 0;border-radius: 0.7rem;}
+    .btn img {width: 1.1rem;height: 1.7rem;margin-left: 1rem;}
+
+    .tips .inputcon textarea {height: 18rem;}
+
+    .contact {display: flex;justify-content: center;align-items: center;}
+    .contact .code {margin:0 3rem;width: 15rem;}
+    .contact .p1 {font-size: 1.8rem;margin-top: 0.5rem;}
+    .contact .phonenum {font-size: 3rem;margin-top: 0;}
+    .swiper2 {height: 22.9rem;}
+    .swiper2 .swiper-container {height: 22.9rem;}
+    .swiper2 .swiper-slide {height: 22.9rem;}
+
+    .pcfl {float: none;}
+    .pcfr {float: none;}
+}
+

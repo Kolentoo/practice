@@ -1,0 +1,55 @@
+
+.banner {background: url('../images/banner.jpg') no-repeat center center;height: 983px;}
+.bj1 {background: url('../images/bj2.jpg') no-repeat center center;height: 1194px;}
+.bj2 {background: url('../images/bj3.jpg') no-repeat center center;height: 988px;}
+.section2 {background: url('../images/bj4.jpg') no-repeat center center;height: 706px;}
+.bj4 {background: url('../images/bj5.jpg') no-repeat center center;height: 1330px;}
+.bj5 {background: url('../images/bj6.jpg') no-repeat center center;height: 1158px;}
+.bj6 {background: url('../images/bj7.jpg') no-repeat center center;height: 1523px;}  
+.section4 {background: url('../images/bj8.jpg') no-repeat center center;height: 1203px;} 
+.bj8 {background: url('../images/bj9.jpg') no-repeat center center;height: 839px;}
+.bj9 {background: url('../images/bj10.jpg') no-repeat center center;height: 787px;position: relative;}  
+.bottom {background: url('../images/bottom.jpg') no-repeat center center;height: 960px;}
+
+.menu {width: 1200px;margin:0 auto;padding-top: 20px;text-align: right;}
+.menu a{width: 63px;height: 33px;line-height: 33px;text-align: center;color:#fff;transition:all ease 0.3s;display: inline-block;font-size: 18px;}
+.menu a:hover {background: #fff;color:#a99a88;}
+
+.navigation {position: absolute;top: 1140px;left: 30px;width: 125px;}
+.navigation .nav-list {background: url('../images/bj1.jpg') no-repeat;width: 125px;height: 41px;line-height: 41px;text-align: center;font-size: 18px;
+color:#fff;margin-bottom: 8px;}
+.nav-on {position: fixed;left: 30px;top: 15%;}
+
+.sectioncon {width: 1200px;margin:0 auto;padding-top: 45px;}
+.videobox {width: 580px;height: 325px;background: #000;border-radius:5px;margin-left: 10px;}
+
+.roomshow {width: 445px;margin-right: 70px;}
+.roomshow .bigroom {width: 100%;height: 498px;transition:all ease 0.5s;cursor: pointer}
+.roomshow .bigroom .bigpic {height: 100%;transition:all ease 0.5s;} 
+.smallroom {margin:25px auto 0;width: 385px;}
+.smallroom .roomlist {width: 63px;height: 70px;margin:0 7px;cursor: pointer;}
+
+.imgback {width: 144px;height: 78px;position: absolute;bottom: 0;left: 50%;margin-left: -77px;}
+
+.bottom h2{color:#7a492f;font-size: 46px;text-align: center;padding-top: 100px;}
+.bottom h2 em{color:#c97d3b;}
+.bottom .bottom-con {width: 930px;margin:0 auto;}
+.bottom .inner {margin-top: 35px;}
+.bottom .logo1 {width: 128px;height: 42px;margin-right: 50px;}
+.bottom .logo2 {height: 136px;height: 44px;}
+.bottom .contact {margin-top: 25px;}
+.bottom .contact .p1 {font-size: 18px;color:#81512a;margin-bottom: 8px;}
+.bottom .code-group {margin-top: 25px;}
+.bottom .code {width: 100px;height: 100px;}
+.bottom .code1 {margin-right: 40px;}
+.bottom .innerright {background: #faf1e8;border-radius:5px;box-shadow:0 5px 3px rgba(0,0,0,0.07);width: 310px;padding:50px 40px 0;}
+.bottom .inputbox {margin-bottom: 20px;}
+.bottom .inputbox .s1 {color:#875940;font-size: 18px;letter-spacing: 5px;}
+.bottom .inputbox input{width: 237px;font-size: 18px;border:none;background:none;border-bottom: 1px solid #f4e3d7;}
+.bottom .inputbox .tips {font-size: 16px;color:#875940;opacity: 0;}
+.bottom .wrong .tips {opacity: 1;}
+.bottom .gobtn {font-size: 30px;color:#78482f;width: 790px;line-height: 92px;text-align: center;margin:161px auto 0;}
+
+.pop-box {width: 650px;position: fixed;left: 50%;top: 50%;margin:-380px 0 0 -325px;z-index:1000;}
+.mask {background: rgba(0,0,0,0.5);width: 100%;height: 100%;z-index:999;position: fixed;top: 0;left: 0;transition:all ease 0.5s;}
+.maskoff {z-index:-1;opacity: 0;}

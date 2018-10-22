@@ -1,0 +1,44 @@
+.yahei {font-family:Microsoft YaHei;}
+.newsubject {width: 1000px;margin:0 auto;padding-bottom: 60px;}
+.newsubject .section {padding:0 20px;}
+.newsubject .header {padding:10px 15px 3px;border-bottom: 2px solid #000;}
+.newsubject .header .img2 {padding-top: 4px;}
+.newsubject .header .p1 {font-size: 20px;padding-top: 34px;}
+
+.newsubject .info {padding:20px 0;}
+.newsubject .info .chart {width: 341px;}
+.newsubject .detail {margin-left: 15px;width: 455px;}
+.newsubject .detail .name {font-size: 17px;margin-bottom: 20px;}
+.newsubject .detail .price {margin-bottom: 25px;}
+.newsubject .detail .price .s1 {font-size: 23px;}
+.newsubject .detail .price .s2 {font-size: 16px;}
+.newsubject .detail .num {font-size: 13px;margin-bottom: 20px;}
+.newsubject .detail .type1 {margin-bottom: 20px;}
+.newsubject .detail .type {font-size: 13px;}
+
+.newsubject .code1 {background: #f5f6f6;width: 140px;padding-bottom: 5px;}
+.newsubject .code2 {margin-top: 10px;}
+.newsubject .code1 .codepic1 {width: 120px;margin:5px auto 0;}
+.newsubject .code1 .tips {color:#000;width: 130px;margin:0 auto;font-size: 13px;background: #fff;}
+.newsubject .code1 .tips .p1 {width: 120px;margin:5px auto 0;}
+
+.newsubject .information {margin-top: 15px;}
+.newsubject .line {background: url('../images/line.png');height: 8px;}
+.newsubject h2 {font-size: 20px;}
+.newsubject .group {width: 380px;}
+.newsubject .group h2 {line-height: 28px;margin-bottom: 10px;}
+.newsubject .group .text {overflow: hidden;}
+.newsubject .group .text1 {margin-bottom: 40px;}
+.newsubject .group .text .p1 {margin-bottom: 10px;font-size: 13px;}
+.newsubject .group2 {margin-left: 90px;}
+.newsubject .informationbox .more {font-size: 13px;text-align: right;margin-top: 25px;margin-bottom: 10px;}
+.newsubject .line2 {background: url('../images/line2.png');height: 1px;}
+
+.newsubject .desc {margin-top: 10px;}
+.newsubject .descname {font-size: 20px;line-height: 40px;}
+.newsubject .descp {font-size: 13px;line-height: 28px;}
+.newsubject .notice {font-size: 10px;text-align: right;margin-top: 20px;margin-bottom: 3px;}
+
+.newsubject .bottom {margin-top: 20px;}
+.newsubject .arrowbox {width: 214px;margin:38px 0 0 25px;}
+.newsubject .bottom .question {font-size: 30px;margin-top: 50px;}
