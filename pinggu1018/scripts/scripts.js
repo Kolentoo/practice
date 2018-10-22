@@ -21,9 +21,10 @@ $(function(){
         centeredSlides: true,
         slidesPerView: 1.4,
         watchActiveIndex: true,
+        loopAdditionalSlides : 1,
         loop:true,
         cssWidthAndHeight : false,
-        autoplay : 0,
+        autoplay : 3000,
         autoplayDisableOnInteraction : false
     })
 

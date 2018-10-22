@@ -27,15 +27,26 @@ $(function(){
 
         if (w >= 600) {
             $(".navigation").addClass('nav-on');
+            $('.commonright').addClass('commonrighton');
         } else {
             $(".navigation").removeClass('nav-on');
+            $('.commonright').removeClass('commonrighton');
         }
+
+        $('.cont-box').each(function(a,b) {
+            var ctop = $(this).offset().top;
+            if (w>ctop-30) {
+                $('.navigation').find('.nav-list').removeClass('on');
+                $('.navigation').find('.nav-list').eq(a).addClass('on');
+            }
+        });
 
 
     }).trigger("scroll");
 
     showroom();
     submitinfo();
+    commonright();
 
 })
 
@@ -89,6 +100,16 @@ function check(){
         
 
     }
+}
+
+function commonright(){
+    $('.commonright').on('click',function(){
+        $('.pop2').removeClass('hide');
+
+        $('.close').on('click',function(){
+            $('.pop2').addClass('hide');
+        })
+    })
 }
 
 

@@ -15,9 +15,11 @@
 .menu a{width: 63px;height: 33px;line-height: 33px;text-align: center;color:#fff;transition:all ease 0.3s;display: inline-block;font-size: 18px;}
 .menu a:hover {background: #fff;color:#a99a88;}
 
-.navigation {position: absolute;top: 1140px;left: 30px;width: 125px;}
+.navigation {position: absolute;top: 1140px;left: 30px;width: 125px;transition:all ease 0.3s;}
 .navigation .nav-list {background: url('../images/bj1.jpg') no-repeat;width: 125px;height: 41px;line-height: 41px;text-align: center;font-size: 18px;
-color:#fff;margin-bottom: 8px;}
+color:#fff;margin-bottom: 8px;transition:all ease 0.3s;}
+.navigation .nav-list:hover {color:red;}
+.navigation .on {color:red;}
 .nav-on {position: fixed;left: 30px;top: 15%;}
 
 .sectioncon {width: 1200px;margin:0 auto;padding-top: 45px;}
@@ -53,3 +55,21 @@ color:#fff;margin-bottom: 8px;}
 .pop-box {width: 650px;position: fixed;left: 50%;top: 50%;margin:-380px 0 0 -325px;z-index:1000;}
 .mask {background: rgba(0,0,0,0.5);width: 100%;height: 100%;z-index:999;position: fixed;top: 0;left: 0;transition:all ease 0.5s;}
 .maskoff {z-index:-1;opacity: 0;}
+
+/* commoncss */
+.commonright {background: url('../images/zixun1.jpg') no-repeat center center;width: 110px;height: 110px;position: fixed;top: 15%;right: 30px;;
+    transition:all ease 0.3s;z-index:-1;opacity: 0;}
+.commonright:hover {background: url('../images/zixun2.jpg') no-repeat center center;}
+.commonrighton {opacity: 1;z-index:300}
+.pop2 {width: 420px;height: 340px;position: fixed;background: #fafafa;border-radius: 5px;box-shadow: #ccc 0px 0px 28px 4px;z-index: 500;
+    padding: 37px 37px 0 37px;top: 50%;left: 50%;margin:-207px 0 0 -247px;}
+.pop2 .popcon {position: relative;}
+.pop2 .popcon .decorate2 {position: absolute;width: 40px;height: 249px;right: 20px;top: 30px;}
+.pop2 .chart {width: 200px;}
+.pop2 .codepic {width: 200px;height: 200px;}
+.pop2 .p1 {margin-bottom: 35px;}
+.pop2 .s1 {color: #2ea9e9;font-size: 16px;margin-right: 20px;}
+.pop2 .s2 {line-height: 200px;}
+.pop2 em{font-size: 30px;color: #5d5655;}
+.pop2 .p2 {color:#cccaca;font-size: 14px;}
+.pop2 .close {width: 25px;height: 24px;position: absolute;top: -20px;right: -20px;cursor: pointer;}
