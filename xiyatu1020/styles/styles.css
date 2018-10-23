@@ -1,5 +1,6 @@
 
-.banner {background: url('../images/banner.jpg') no-repeat center center;height: 983px;}
+body,html{width: 100%;overflow-x: hidden;}
+.banner {position: relative;}
 .bj1 {background: url('../images/bj2.jpg') no-repeat center center;height: 1194px;}
 .bj2 {background: url('../images/bj3.jpg') no-repeat center center;height: 988px;}
 .section2 {background: url('../images/bj4.jpg') no-repeat center center;height: 706px;}
@@ -11,7 +12,9 @@
 .bj9 {background: url('../images/bj10.jpg') no-repeat center center;height: 787px;position: relative;}  
 .bottom {background: url('../images/bottom.jpg') no-repeat center center;height: 960px;}
 
-.menu {width: 1200px;margin:0 auto;padding-top: 20px;text-align: right;}
+.menu-box {position: absolute;width: 100%;top: 0;left: 0;}
+.menu-box .logopic {width: 173px;height: 51px;}
+.menu-box .menucon {width: 1200px;margin:0 auto;padding-top: 20px;}
 .menu a{width: 63px;height: 33px;line-height: 33px;text-align: center;color:#fff;transition:all ease 0.3s;display: inline-block;font-size: 18px;}
 .menu a:hover {background: #fff;color:#a99a88;}
 
