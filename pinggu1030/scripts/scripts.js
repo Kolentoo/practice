@@ -14,7 +14,7 @@ $(function(){
         pagination: '.pag',
         paginationClickable: true,
         centeredSlides: true,
-        slidesPerView: 1.4,
+        slidesPerView: 1.01,
         watchActiveIndex: true,
         loopAdditionalSlides : 1,
         loop:true,

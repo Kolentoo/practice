@@ -58,11 +58,11 @@ margin:1.5rem auto 0;text-align: center;border-radius:0.7rem;width: 20rem;height
 
 .other {padding:3rem 4rem 15rem;background: rgba(255,255,255,0.9);}
 .swiper2 {width: 100%;position: relative;margin: 0 auto 5rem;}
-.swiper2 .swiper-slide {height: 100%;opacity: 0.4;
+.swiper2 .swiper-slide {height: 100%;opacity: 0.4;box-shadow:0 0 2rem rgba(0,0,0,0.28);
     /* -webkit-transition: 500ms;-moz-transition: 500ms;-ms-transition: 500ms;-o-transition: 500ms;transition: 500ms;-webkit-transform: scale(1);
     -moz-transform: scale(1);-ms-transform: scale(1);-o-transform: scale(1);transform: scale(1); */
 }
-.swiper2 .swiper-slide img{box-shadow:0 0 1rem rgba(0,0,0,0.28);}
+/* .swiper2 .swiper-slide img{} */
 .swiper2 .swiper-slide-visible {opacity: 0.5;
     -webkit-transform: scale(0.8);-moz-transform: scale(0.8);-ms-transform: scale(0.8);-o-transform: scale(0.8);transform: scale(0.8);
 }
@@ -83,15 +83,15 @@ margin:1.5rem auto 0;text-align: center;border-radius:0.7rem;width: 20rem;height
 
 
 .inputbox .p1 {font-size: 2.8rem;}
-.address .area {height: 4.8rem;width: 20%;border: 0.1rem solid #010017;background: #fff;display: flex;align-items:center;}
+.address .area {height: 4.8rem;width: 20%;border: 1px solid #010017;background: #fff;display: flex;align-items:center;}
 .address .area .s1 {line-height: 4.8rem;font-size: 2rem;margin-left: 1rem;}
 .address .p2 {font-size: 2rem;margin-top: -0.5rem;margin-bottom: 0.5rem;color:#6b6b6b;}
 .address .area img{margin-left: 1rem;}
 .address .inputcon .detailaddress {margin-left: 3%;width: 76.1%;text-indent: 2rem;}
 .inputbox .input1 {width: 100%;}
-.inputbox .something {height: 5rem;border: 0.1rem solid #010017;text-indent: 4.8rem;font-size: 2rem;}
+.inputbox .something {height: 5rem;border: 1px solid #010017;text-indent: 4.8rem;font-size: 2rem;}
 .inputbox .tips {font-size: 1.6rem;}
-.inputbox .inputcon select {height: 5rem;border: 0.1rem solid #010017;font-size: 2rem;width: 100%;text-indent: 4.8rem;display: inline-block;padding-left: 0;}
+.inputbox .inputcon select {height: 5rem;border: 1px solid #010017;font-size: 2rem;width: 100%;text-indent: 4.8rem;display: inline-block;padding-left: 0;}
 
 
 .notice .p1 {font-size: 2rem;}
