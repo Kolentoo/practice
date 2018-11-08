@@ -1,7 +1,8 @@
 $(function(){
 
     submitinfo();
-
+    scrollbottom();
+    
 })
 
 function submitinfo(){
@@ -9,7 +10,6 @@ function submitinfo(){
         check();
     })
 }
-
 
 function check(){
     if($('.phone').val()===''){
@@ -33,6 +33,13 @@ function check(){
         
 
     }
+}
+
+function scrollbottom(){
+    var bottomTop = $('.bottom').offset().top
+    $('.bottombanner').on('click',function(){   
+        $('body,html').animate({scrollTop:bottomTop},800);
+    })
 }
 
 

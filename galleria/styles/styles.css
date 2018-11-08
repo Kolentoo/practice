@@ -146,7 +146,7 @@
 }
 
 .bottom .inputbox {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .bottom .inputbox .s1 {
@@ -184,4 +184,5 @@
 }
 
 
-.bottombanner {position: fixed;bottom: 0;left: 0;z-index:100;}
+.bottombanner {position: fixed;bottom: 0;left: 0;z-index:100;background: url('../images/banner2.jpg') no-repeat center center;height: 56px;width: 100%;
+cursor: pointer;}
