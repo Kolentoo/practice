@@ -2,11 +2,13 @@
 .banner {
     position: relative;min-width: 1460px;
 }
+.bannerimg {background: url('../images/banner.jpg') no-repeat center center;
+    height: 600px;}
 
-.bj {min-width: 1460px;}
+.bj {min-width: 1460px;margin-top: 100px;}
 .bj1 {
     background: url('../images/bj1.jpg') no-repeat center center;
-    height: 1149px;
+    height: 942px;
 }
 
 .bj2 {
@@ -16,22 +18,22 @@
 
 .bj3 {
     background: url('../images/bj3.jpg') no-repeat center center;
-    height: 931px;
+    height: 735px;
 }
 
 .bj4 {
     background: url('../images/bj4.jpg') no-repeat center center;
-    height: 524px;
+    height: 431px;
 }
 
 .bj5 {
     background: url('../images/bj5.jpg') no-repeat center center;
-    height: 950px;
+    height: 860px;
 }
 
 .bj6 {
     background: url('../images/bj6.jpg') no-repeat center center;
-    height: 884px;
+    height: 885px;
 }
 
 .bottom {
@@ -57,6 +59,7 @@
     margin: 0 auto;
     padding-top: 20px;
 }
+.small {min-width: 1200px;}
 
 .menu a {
     width: 63px;
@@ -186,3 +189,5 @@
 
 .bottombanner {position: fixed;bottom: 0;left: 0;z-index:100;background: url('../images/banner2.jpg') no-repeat center center;height: 56px;width: 100%;
 cursor: pointer;}
+.menu-box .small {width: 1200px;min-width:1200px;}
+.small {min-width:1200px;}

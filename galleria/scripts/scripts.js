@@ -2,8 +2,28 @@ $(function(){
 
     submitinfo();
     scrollbottom();
+    sizecheck();
+    
+    
+    window.onresize=function(){  
+        sizecheck()
+        
+   }  
     
 })
+
+function sizecheck(){
+    var winWidth = window.innerWidth;
+    if(winWidth<1460){
+        $('.bj').addClass('small');
+        $('.banner').addClass('small');
+        $('.menucon').addClass('small');
+    }else{
+        $('.bj').removeClass('small');
+        $('.banner').removeClass('small');
+        $('.menucon').removeClass('small');
+    }
+}
 
 function submitinfo(){
     $('.gobtn').on('click',function(){
