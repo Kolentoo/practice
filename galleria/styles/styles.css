@@ -55,7 +55,7 @@
 
 .menu-box .menucon {
     width: 1460px;
-    min-height: 1460px;
+    min-width: 1460px;
     margin: 0 auto;
     padding-top: 20px;
 }
